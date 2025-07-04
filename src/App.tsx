@@ -127,7 +127,7 @@ export default function App() {
         onBreakEnd={() => handleUpdateAttendance("break_end")}
       />
 
-      <main className="p-4 flex-1">
+      <main className="p-4 flex-1 ml-48">
         {loading ? (
           <div>読み込み中...</div>
         ) : (
